@@ -163,13 +163,13 @@
             const firstClassNumber = ticketInputValue("firstClass");
             const economyNumber = ticketInputValue("economy");
 
-            const subTotalPrice = firstClassNumber * 150 + economyNumber * 100; // Subtotal Total Price Count.
+            const subTotalPrice = firstClassNumber * 150 + economyNumber * 100; 
             document.getElementById("subTotalPrice").innerText = '$' + subTotalPrice;
 
-            const vat = Math.round(subTotalPrice * 0.1); // Total Vat Count.
+            const vat = Math.round(subTotalPrice * 0.1); 
             document.getElementById("vat").innerText = '$' +vat;
 
-            const totalPrice = subTotalPrice + vat; // Total Price Count.
+            const totalPrice = subTotalPrice + vat; 
             document.getElementById("totalPrice").innerText = '$' + totalPrice;
 
         };
