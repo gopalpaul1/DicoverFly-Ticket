@@ -131,15 +131,13 @@ nav ul li a:hover, a.active{
 }
 #sucess-area{
     display: none;
-    /* border: 1px solid crimson; */
     margin: 0 auto;
     margin-top: 15%;
     padding: 35px;
     width: 40%;
     font-size: 30px;
-    /* text-align: center; */
     color: cyan;
-    box-shadow: 2px 5px 20px #a3a3a3;
+    box-shadow: 5px 5px 100px #a3a3a3;
     background: white;
 
 }

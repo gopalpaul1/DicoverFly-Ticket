@@ -152,7 +152,7 @@
                 totalTicketPrice = totalTicketCount * 100;
             }
 
-             ticketTotalPrice();
+            ticketTotalPrice();
 
         };
         
@@ -169,7 +169,7 @@
             const vat = Math.round(subTotalPrice * 0.1); // Total Vat Count.
             document.getElementById("vat").innerText = '$' +vat;
 
-            const totalPrice = subTotalPrice + vat; // <Final> Total Price Count.
+            const totalPrice = subTotalPrice + vat; // Total Price Count.
             document.getElementById("totalPrice").innerText = '$' + totalPrice;
 
         };
