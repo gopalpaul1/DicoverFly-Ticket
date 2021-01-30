@@ -139,7 +139,7 @@ nav ul li a:hover, a.active{
     font-size: 30px;
     /* text-align: center; */
     color: cyan;
-    box-shadow: 2px 5px 20px #a0c2b0;
+    box-shadow: 2px 5px 20px #a3a3a3;
     background: white;
 
 }
